@@ -1,3 +1,4 @@
+# Трехмерное пространство
 my_list = [int(x) for x in input().split()]
 x = my_list[0]
 y = my_list[1]
