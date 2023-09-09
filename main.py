@@ -50,7 +50,10 @@ elif x < 0:
 
 else:
     if y == 0:
-      print('Ось z')
+        if z == 0:
+            print('Начало координат')
+        else:
+            print('Ось z')
     elif y > 0:
       if z == 0:
         print('Ocь y')
